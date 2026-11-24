@@ -44,9 +44,9 @@
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
-            //
+            // 
             // menuStrip1
-            //
+            // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
@@ -57,29 +57,29 @@
             this.menuStrip1.Size = new System.Drawing.Size(782, 28);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
-            //
+            // 
             // toolStripMenuItem1
-            //
+            // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(14, 24);
-            //
+            // 
             // salirToolStripMenuItem
-            //
+            // 
             this.salirToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.salirDeLaAplicaciónToolStripMenuItem});
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
             this.salirToolStripMenuItem.Text = "Archivo";
-            //
+            // 
             // salirDeLaAplicaciónToolStripMenuItem
-            //
+            // 
             this.salirDeLaAplicaciónToolStripMenuItem.Name = "salirDeLaAplicaciónToolStripMenuItem";
             this.salirDeLaAplicaciónToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
             this.salirDeLaAplicaciónToolStripMenuItem.Text = "Salir de la Aplicación";
             this.salirDeLaAplicaciónToolStripMenuItem.Click += new System.EventHandler(this.salirDeLaAplicaciónToolStripMenuItem_Click);
-            //
+            // 
             // MenuAlmazara
-            //
+            // 
             this.MenuAlmazara.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aceitunasToolStripMenuItem,
             this.producciónToolStripMenuItem,
@@ -88,35 +88,35 @@
             this.MenuAlmazara.Name = "MenuAlmazara";
             this.MenuAlmazara.Size = new System.Drawing.Size(73, 24);
             this.MenuAlmazara.Text = "Gestión";
-            //
+            // 
             // aceitunasToolStripMenuItem
-            //
+            // 
             this.aceitunasToolStripMenuItem.Name = "aceitunasToolStripMenuItem";
             this.aceitunasToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
             this.aceitunasToolStripMenuItem.Text = "Aceitunas Ctr+A";
             this.aceitunasToolStripMenuItem.Click += new System.EventHandler(this.aceitunasToolStripMenuItem_Click);
-            //
+            // 
             // producciónToolStripMenuItem
-            //
+            // 
             this.producciónToolStripMenuItem.Name = "producciónToolStripMenuItem";
             this.producciónToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
             this.producciónToolStripMenuItem.Text = "Producción Ctr+P";
             this.producciónToolStripMenuItem.Click += new System.EventHandler(this.producciónToolStripMenuItem_Click);
-            //
+            // 
             // inventarioToolStripMenuItem
-            //
+            // 
             this.inventarioToolStripMenuItem.Name = "inventarioToolStripMenuItem";
             this.inventarioToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
             this.inventarioToolStripMenuItem.Text = "Inventario";
-            //
+            // 
             // facturaciónToolStripMenuItem
-            //
+            // 
             this.facturaciónToolStripMenuItem.Name = "facturaciónToolStripMenuItem";
             this.facturaciónToolStripMenuItem.Size = new System.Drawing.Size(207, 26);
             this.facturaciónToolStripMenuItem.Text = "Facturación";
-            //
+            // 
             // contextMenuStrip1
-            //
+            // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aceitunasCtrAToolStripMenuItem,
@@ -124,23 +124,23 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(212, 52);
             this.contextMenuStrip1.Text = "Menú Contextual";
-            //
+            // 
             // aceitunasCtrAToolStripMenuItem
-            //
+            // 
             this.aceitunasCtrAToolStripMenuItem.Name = "aceitunasCtrAToolStripMenuItem";
             this.aceitunasCtrAToolStripMenuItem.Size = new System.Drawing.Size(211, 24);
             this.aceitunasCtrAToolStripMenuItem.Text = "Aceitunas (Ctr+A)";
             this.aceitunasCtrAToolStripMenuItem.Click += new System.EventHandler(this.aceitunasToolStripMenuItem_Click);
-            //
+            // 
             // producciónCtrlPToolStripMenuItem
-            //
+            // 
             this.producciónCtrlPToolStripMenuItem.Name = "producciónCtrlPToolStripMenuItem";
             this.producciónCtrlPToolStripMenuItem.Size = new System.Drawing.Size(211, 24);
             this.producciónCtrlPToolStripMenuItem.Text = "Producción(Ctrl + P)";
             this.producciónCtrlPToolStripMenuItem.Click += new System.EventHandler(this.producciónToolStripMenuItem_Click);
-            //
+            // 
             // Almazara
-            //
+            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(782, 403);

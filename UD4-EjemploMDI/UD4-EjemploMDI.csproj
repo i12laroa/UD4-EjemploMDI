@@ -65,6 +65,7 @@
       <DependentUpon>Produccion.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Variedad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Aceitunas.resx">
       <DependentUpon>Aceitunas.cs</DependentUpon>
